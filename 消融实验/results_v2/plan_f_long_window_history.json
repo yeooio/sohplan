@@ -1,0 +1,32 @@
+[
+  {
+    "hp": {
+      "n_feat": 2,
+      "d_model": 32,
+      "n_agents": 8,
+      "n_heads": 4,
+      "ffn_expand": 4,
+      "dropout": 0.4,
+      "window_size": 20,
+      "weight_decay": 0.0003,
+      "epochs": 500,
+      "batch_size": 32,
+      "lr": 0.0002,
+      "seed": 42,
+      "pre_norm": false,
+      "use_pe": false,
+      "warmup_epochs": 25
+    },
+    "verdict": "FAIL",
+    "custom_verdict": "PLAN_F_FAIL (M6 rank=5/6)",
+    "means": {
+      "M6": 0.9889,
+      "M1": 0.9903,
+      "M3": 0.9898,
+      "M4": 0.9895,
+      "M2": 0.9865,
+      "M5": 0.9894
+    },
+    "m6_rank": 5
+  }
+]
