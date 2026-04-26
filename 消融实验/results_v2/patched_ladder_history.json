@@ -1,0 +1,31 @@
+[
+  {
+    "name": "A1_warm20_ep400",
+    "hp": {
+      "n_feat": 2,
+      "d_model": 32,
+      "n_agents": 8,
+      "n_heads": 4,
+      "ffn_expand": 4,
+      "dropout": 0.5,
+      "window_size": 10,
+      "weight_decay": 0.0001,
+      "epochs": 400,
+      "batch_size": 32,
+      "lr": 0.0002,
+      "seed": 42,
+      "pre_norm": true,
+      "use_pe": false,
+      "warmup_epochs": 20
+    },
+    "verdict": "FAIL",
+    "means": {
+      "M6": 0.9894,
+      "M1": 0.9282,
+      "M3": 0.9865,
+      "M4": 0.9906,
+      "M2": 0.8496,
+      "M5": 0.935
+    }
+  }
+]
